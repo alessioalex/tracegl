@@ -1,10 +1,10 @@
 {
-	"theme" : "dark", // other theme: light
-	"ui":2000, // UI port
-	"tgt":2080, // browser JS port
-	"do":[], // only trace files matching
-	"no":[], // ignore files matching ":match" for string or "/match" for regexp
-	"editors" : { // editor paths per platform, modify these to set up your editor
+	"theme" : "dark",
+	"ui":2000,
+	"tgt":2080,
+	"do":[],
+	"no":[],
+	"editors" : {
 		"darwin":{
 			"sublime3":{
 				"bin":"/Applications/Sublime Text 3.app/Contents/SharedSupport/bin/subl",
